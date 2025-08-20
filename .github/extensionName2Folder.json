@@ -646,6 +646,7 @@
   "thuoe/footy-report": "footy-report",
   "shichen437/forgejo": "forgejo",
   "sxn/fork-repositories": "fork-repositories",
+  "litomore/forked-extensions": "forked-extensions",
   "tngranados/format-graphql": "format-graphql",
   "iamlas/fotmob": "fotmob",
   "merklefruit/foundry-cast-cli": "foundry-cast-cli",
@@ -1325,6 +1326,7 @@
   "douo/openai-translator": "openai-translator",
   "rafalpetryka/openfortivpn": "openfortivpn",
   "mutewinter/openrouter-model-search": "openrouter-model-search",
+  "jeejeeguan/openrouter-models-finder": "openrouter-models-finder",
   "thibaultleouay/openstatus": "openstatus",
   "crisboarna/openstreetmap-search": "openstreetmap-search",
   "openverse/openverse": "openverse",
@@ -1546,6 +1548,7 @@
   "krod12/ratingsdb": "ratingsdb",
   "justiniscoding/ratio-calculator": "ratio-calculator",
   "nathan_schwermann/ray-boop": "ray-boop",
+  "JonathanRReed/ray-clicker": "ray-clicker",
   "garrett/ray-so": "ray-so",
   "EvanZhouDev/raycast-apple-intelligence": "raycast-apple-intelligence",
   "EvanZhouDev/raycast-arcade": "raycast-arcade",
@@ -2257,5 +2260,6 @@
   "raycast/zoom": "zoom",
   "prashantv/zoom-meeting-control": "zoom-control",
   "reckoning-dev/zotero": "zotero",
-  "theherk/zoxide-git-projects": "zoxide-git-projects"
+  "theherk/zoxide-git-projects": "zoxide-git-projects",
+  "espenbye/zsh-aliases": "zsh-aliases"
 }
