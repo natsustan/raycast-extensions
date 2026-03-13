@@ -31,7 +31,7 @@ export function formatClaudeUsageText(usage: ClaudeUsage | null, error: ClaudeEr
   }
 
   if (u.sevenDayModel) {
-    text += formatWindow("Weekly Sonnet/Opus", u.sevenDayModel.percentageRemaining, u.sevenDayModel.resetsIn);
+    text += formatWindow("Weekly Sonnet", u.sevenDayModel.percentageRemaining, u.sevenDayModel.resetsIn);
   }
 
   if (u.extraUsage) {
@@ -72,7 +72,7 @@ export function renderClaudeDetail(usage: ClaudeUsage | null, error: ClaudeError
         <>
           <List.Item.Detail.Metadata.Separator />
           <List.Item.Detail.Metadata.Label
-            title="Weekly Sonnet/Opus"
+            title="Weekly Sonnet"
             text={`${generateAsciiBar(u.sevenDayModel.percentageRemaining)} ${u.sevenDayModel.percentageRemaining}% remaining`}
           />
           {u.sevenDayModel.resetsIn && (
