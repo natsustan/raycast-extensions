@@ -385,7 +385,7 @@ export default function Command(props: LaunchProps<{ launchContext: CommandLaunc
                   <ActionPanel.Section title="Reorder">
                     {canMoveUp && (
                       <Action
-                        title="Move up"
+                        title="Move Up" // eslint-disable-line @raycast/prefer-title-case
                         icon={Icon.ArrowUp}
                         shortcut={{ modifiers: ["cmd", "opt"], key: "arrowUp" }}
                         onAction={() => moveAgent(agent.id, "up")}
